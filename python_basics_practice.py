@@ -201,6 +201,87 @@ for i in word:
 #############################################################################
 
 
+# ----------------------------------------
+# Program 1: Check if a number is even or odd
+# ----------------------------------------
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
+
+
+# ----------------------------------------
+# Program 2: Check voting eligibility
+# ----------------------------------------
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
+
+
+# ----------------------------------------
+# Program 3: Find the greater of two numbers
+# ----------------------------------------
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if num1 > num2:
+    print(num1, "is greater")
+elif num2 > num1:
+    print(num2, "is greater")
+else:
+    print("Both numbers are equal")
+
+
+# ----------------------------------------
+# Program 4: Find the greatest of three numbers
+# ----------------------------------------
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+if num1 >= num2 and num1 >= num3:
+    print(num1, "is the greatest")
+elif num2 >= num1 and num2 >= num3:
+    print(num2, "is the greatest")
+else:
+    print(num3, "is the greatest")
+
+
+# ----------------------------------------
+# Program 5: Check whether a year is a leap year
+# ----------------------------------------
+
+year = int(input("Enter a year: "))
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, "is a leap year")
+else:
+    print(year, "is not a leap year")
+
+
+# ----------------------------------------
+# Program 6: Check divisibility by 3 and 5
+# ----------------------------------------
+
+num = int(input("Enter a number: "))
+
+if num % 3 == 0 and num % 5 == 0:
+    print("The number is divisible by both 3 and 5")
+elif num % 3 == 0:
+    print("The number is divisible by 3")
+elif num % 5 == 0:
+    print("The number is divisible by 5")
+else:
+    print("The number is not divisible by 3 or 5")
 
 
 
